@@ -1,10 +1,15 @@
-import './App.css';
-import About from '../src/components/About'
+import Header from './components/header/Header'
+import About from './components/about/About'
+import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 function App() {
   return (
     <>
+      <Header />
       <About />
+      {/* <Nav />
+      <Footer /> */}
     </>
   );
 }
