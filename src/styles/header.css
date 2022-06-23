@@ -1,7 +1,7 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+    /* padding-top: 7rem;
+    overflow: hidden; */
 }
 
 .header_container {
@@ -10,6 +10,9 @@ header {
     position: relative;
 }
 
+/* #home{
+  margin-bottom: 120px;
+} */
 h1{
     color: green;
 }
@@ -40,14 +43,14 @@ h1{
   /* ~~~~~~~~~~~~~ Header Image (ME) ~~~~~~~~~~~~~ */
   .myImage{
     background: linear-gradient(var(--color-secondary), transparent);
-    width: 22rem;
-    height: 30rem;
+    width: 20rem;
+    height:20rem;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 1rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 2rem;
+    /* padding: 2rem; */
   }
   
   /* ~~~~~~~~~~~~~ Scroll Down ~~~~~~~~~~~~~ */
