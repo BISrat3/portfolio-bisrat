@@ -1,12 +1,9 @@
-import { BsFillBookmarkCheckFill } from "react-icons/bs";
 import "../../styles/project.css";
-
-
 import simongame from "../../images/simongame.png"
 import movie_app from "../../images/movie_app.png"
 import MenStore from "../../images/MenStore.png"
-
 import Soccerplayer from "../../images/Soccerplayer.png"
+import '../../styles/project.css'
 
 
 const Projects = () => {
@@ -15,15 +12,15 @@ const Projects = () => {
       <h2>Projects</h2>
       <div className="container experience_container">
         {/* <div class="box alt new-container"> */}
-          <div class="frontend">
+        <div className="frontend">
             <span class="">
               <img src={simongame} alt="" width="310px" />
             </span>
-            <h4 class="title">Simon Game</h4>
-            <p class="title-p" width="310px">
+            <h4 className="title">Simon Game</h4>
+            <p className="title-p" width="310px">
               JavaScript, HTML, CSS.
             </p>
-            <div>
+    
               <a
                 href="https://github.com/BISrat3/Project1_Simon"
                 class="btn"
@@ -33,7 +30,8 @@ const Projects = () => {
                   GitHub
                 </button>
               </a>
-            </div>
+        </div>
+        <div className="backend">
             <span class="">
               <img
                 src={movie_app}
@@ -46,7 +44,7 @@ const Projects = () => {
             <p class="title-p" width="310px">
               Javascript, HTML,CSS, Express, EJS Mongoose, MongoDB, Axios, API
             </p>
-            <div>
+            
               <a
                 href="https://github.com/BISrat3/Movie_Project2"
                 class="btn"
@@ -66,7 +64,7 @@ const Projects = () => {
                 </button>
               </a>
             </div>
-
+        <div className="backend">
             <span class="">
               <img
                 src={Soccerplayer}
@@ -80,7 +78,6 @@ const Projects = () => {
               HTML, CSS, JavaScript, React React Bootstrap , Sportmonk-API,
               Postman
             </p>
-            <div>
               <a
                 href="https://github.com/BISrat3/Soccer-frontend"
                 class="btn"
@@ -99,8 +96,9 @@ const Projects = () => {
                   Live
                 </button>
               </a>
-            </div>
+        </div>
 
+        <div className="backend">
             <span class="">
               <img
                 src={MenStore}
@@ -115,7 +113,7 @@ const Projects = () => {
               HTML, CSS, JavaScript,Bulma, Python, Django, BootStrap,
               Postgresql, Heroku
             </p>
-            <div>
+            
               <a
                 href="https://github.com/BISrat3/Style-App"
                 class="btn"
@@ -134,11 +132,12 @@ const Projects = () => {
                   Live
                 </button>
               </a>
-            </div>
-          </div>
+            
         </div>
       {/* </div> */}
     </div>
+    </div>
+    
   );
 };
 
