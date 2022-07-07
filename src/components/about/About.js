@@ -1,16 +1,34 @@
-// import '../styles/about.css'
-// import bisrat from '../images/bisrat.jpeg'
-// import "../styles/about.css"
+import "../../styles/about.css";
+// import { DiCode } from "react-icons/di";
+import { MdOutlineSecurityUpdateGood } from "react-icons/md";
+import FontAwesomeIcon from 'font-awesome/css/font-awesome.min.css'
 
-export default function About(){
-    return(
-        <div className='profile'>
-        {/* <h4> Bisrat Profile</h4> */}
-        <h2 className="about">About Me</h2>
-        {/* <div className='about'>
-            <h2 className="about">About Me</h2> */}
-            {/* <img src={bisrat} alt="bisrat"/> */}
-        {/* </div> */}
+export default function About() {
+  return (
+    <div className="about">
+      <h2>About Me</h2>
+      <div className="container about_container">
+        <div className="about_content">
+          <div className="cards">
+            <article className="about_card">
+              {/* <DiCode className="about_icon" /> */}
+              <FontAwesomeIcon icon="fa-brands fa-connectdevelop" />
+              <h5>Experience</h5>
+              <h6>3 Years Working</h6>
+            </article>
+          </div>
+          <div className="card2">
+            <article className="about_card">
+              <MdOutlineSecurityUpdateGood className="about_icon" />
+              <h5>Experience</h5>
+              <h6>2 Years Working</h6>
+            </article>
+          </div>
         </div>
-    )}
-
+        <p className="about-p">
+          I'm a Full Stack Java Script Web Developer with experience of building sites and web applications. Comprehend and implemented ideas like
+          </p>
+      </div>
+    </div>
+  );
+}
