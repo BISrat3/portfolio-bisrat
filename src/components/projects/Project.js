@@ -3,12 +3,11 @@ import simongame from "../../images/simongame.png"
 import movie_app from "../../images/movie_app.png"
 import MenStore from "../../images/MenStore.png"
 import Soccerplayer from "../../images/Soccerplayer.png"
-import '../../styles/project.css'
 
 
 const Projects = () => {
   return (
-    <div id="projects">
+    <div id="experience">
       <h2>Projects</h2>
       <div className="container experience_container">
         {/* <div class="box alt new-container"> */}
@@ -26,8 +25,17 @@ const Projects = () => {
                 class="btn"
                 target="_blank"
               >
-                <button type="button" class="btn btn-secondary">
+                <button type="button" className="btn btn-info">
                   GitHub
+                </button>
+              </a>
+              <a
+                href="https://github.com/BISrat3/Project1_Simon"
+                class="btn"
+                target="_blank"
+              >
+                <button type="button" class="btn btn-success">
+                  Live
                 </button>
               </a>
         </div>
@@ -50,7 +58,7 @@ const Projects = () => {
                 class="btn"
                 target="_blank"
               >
-                <button type="button" class="btn btn-secondary">
+                <button type="button" className="btn btn-info">
                   GitHub
                 </button>
               </a>
@@ -83,14 +91,14 @@ const Projects = () => {
                 class="btn"
                 target="_blank"
               >
-                <button type="button" class="btn btn-secondary">
+                <button type="button" className="btn btn-info">
                   GitHub
                 </button>
               </a>
               <a
                 href="https://soccer-player-profile-app.netlify.app/"
                 class="btn"
-                target="_blank"
+                target=""
               >
                 <button type="button" class="btn btn-success">
                   Live
@@ -117,16 +125,16 @@ const Projects = () => {
               <a
                 href="https://github.com/BISrat3/Style-App"
                 class="btn"
-                target="_blank"
+                target=""
               >
-                <button type="button" class="btn btn-secondary">
+               <button type="button" className="btn btn-info">
                   GitHub
                 </button>
               </a>
               <a
                 href="https://mens-styles-store.herokuapp.com/"
                 class="btn"
-                target="_blank"
+                target=""
               >
                 <button type="button" class="btn btn-success">
                   Live

@@ -3,7 +3,9 @@
 body {
   font-family: 'Ubuntu Mono', monospace;
   background-color: var(--color-bg);
+  background-image: url('https://images.unsplash.com/photo-1512950050685-b1d4ae63d2df?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8cG9ydGZvbGlvJTIwYmFja2dyb3VuZHxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=1400&q=60');
   color: var(--color-dark);
+  
   line-height: 1.7;
   /* background-image: url(./assests/profile-background3.jpg); */
 }
