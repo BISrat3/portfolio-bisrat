@@ -1,4 +1,4 @@
-@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/* @import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'); */
 
 .profile{
     color: black;
@@ -7,6 +7,8 @@
 
 .fa-brands {
   color: green;
+  text-align: 20px;
+  font-family: 'sans-serif';
 }
 
 .h4{
@@ -60,35 +62,45 @@
   
   /* ~~~~~~~~~~~~~ About Cards ~~~~~~~~~~~~~ */
   .cards {
-      flex-direction: row;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
+      /* flex-direction: row;
       justify-content: flex-start;
       gap: 20px;
       border: 10px solid green;
       border-radius: 15px;
-      margin-top: 20px;
+      margin-top: 20px; */
     /* display: flex;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem; */
-  }
-  
+    .card2 {
+      background: var(--color-secondary);
+      border: 1px solid transparent;
+      border-radius: 1rem;
+      padding: 2rem;
+      text-align: center;
+      transition: var(--transition);
+    }
+
+/*   
   .card2{
       flex-direction: row;
       justify-content: flex-end;margin-top: 20px;
       border: 10px solid green;
       border-radius: 15px;
-  }
-  .about__card {
-    /* background: var(--color-secondary); */
-    border: 3px solid transparent;
+  } */
+  .about_card {
+    background: var(--color-secondary);
+    border: 1px solid transparent;
     border-radius: 1rem;
     padding: 2rem;
     text-align: center;
-    flex-direction: column;
-    justify-content: center;
     transition: var(--transition);
   }
   
-  .about__card:hover {
+  .about_card:hover {
     background: rgba(222, 36, 36, 0.4);
     border-color: var(--color-primary);
     cursor: default;
