@@ -56,9 +56,9 @@
   }
 
   .about_content{
-      display: flex;
+      /* display: flex; */
       gap: 10px;
-      justify-items: center;
+      justify-content: center;
   }
   
   /* ~~~~~~~~~~~~~ About Cards ~~~~~~~~~~~~~ */
@@ -66,6 +66,8 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 1.5rem;
+   
+    
   }
       /* flex-direction: row;
       justify-content: flex-start;
@@ -96,7 +98,7 @@
     background: var(--color-secondary);
     border: 1px solid transparent;
     border-radius: 1rem;
-    padding: 2rem;
+    padding: 1.5rem;
     text-align: center;
     transition: var(--transition);
   }

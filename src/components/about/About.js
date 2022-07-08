@@ -20,6 +20,11 @@ function About() {
               <h5>Experience</h5>
               <h6>2 Years Working</h6>
             </article>
+            {/* <article className="about_card">
+              <MdOutlineSecurityUpdateGood className="about_icon" />
+              <h5>Projects</h5>
+              <h6>20+ Projects</h6>
+            </article> */}
           {/* </div> */}
           </div>
         </div>
