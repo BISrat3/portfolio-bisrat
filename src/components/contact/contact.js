@@ -1,8 +1,8 @@
 
-const contact =()=>{
+const Contact =()=>{
     return(
         <>
-        <form>
+        <form action="">
             <label for="name"></label>
             <input type = "text" placeholder="What's your name?" required/>
             <label for="Email"></label>
@@ -14,3 +14,5 @@ const contact =()=>{
         </>
     )
 }
+
+export default Contact
