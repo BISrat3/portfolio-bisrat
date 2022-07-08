@@ -1,10 +1,10 @@
 import "../../styles/about.css";
 // import { DiCode } from "react-icons/di";
 import { MdOutlineSecurityUpdateGood } from "react-icons/md";
-// import FontAwesomeIcon from '@fortawesome/react-fontawesome'
-// import {brands} from '@fortawesome/fontawesome-svg-core/import.macro'
+import {Resume} from '../../Resume/Bisrat.pdf'
 
-export default function About() {
+
+function About() {
   return (
     <div className="about">
       <h2>About Me</h2>
@@ -15,9 +15,6 @@ export default function About() {
               <h5>Experience</h5>
               <h6>3 Years Working</h6>
             </article>
-              {/* <DiCode className="about_icon" /> */}
-              {/* <FontAwesomeIcon icon="fa-brands fa-connectdevelop" /> */}
-              {/* <div className="card2"> */}
             <article className="about_card">
               <MdOutlineSecurityUpdateGood className="about_icon" />
               <h5>Experience</h5>
@@ -27,9 +24,12 @@ export default function About() {
           </div>
         </div>
         <p className="about-p">
-          I'm a Full Stack Java Script Web Developer with experience of building sites and web applications. Comprehend and implemented ideas like
+          I'm a Full Stack Java Script Web Developer with experience of building sites and web applications.  Comprehend and implemented ideas like
           </p>
+          <a href='https://drive.google.com/file/d/1wPkedlAeyY3RtxZHRJ7wvdNS6dtM3mm6/view?usp=sharing' class="btn"><button type="button" class="btn-resume btn-info">Download Resume</button></a>
       </div>
     </div>
   );
 }
+
+export default About
