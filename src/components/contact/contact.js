@@ -2,7 +2,7 @@
 const Contact =()=>{
     return(
         <>
-        <form action="">
+        <form action="https://formsubmit.co/bisrat.amtataw@gmail.com" to="" method="POST">
             <label for="name"></label>
             <input type = "text" placeholder="What's your name?" required/>
             <label for="Email"></label>
