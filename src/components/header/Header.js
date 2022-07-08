@@ -4,6 +4,7 @@ import Socials from "./Socials"
 
 const Header = () =>{
     return (
+        <>
         <header id="home">
             <div className="container header_container">
                <h1>Bisrat Menberu Amtataw</h1>
@@ -14,6 +15,7 @@ const Header = () =>{
                 </div>
             </div>
         </header>
+        </>
     )
 }
 

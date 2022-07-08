@@ -28,7 +28,11 @@ const Experience = () =>{
                         <article className="experience_details">
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
+                            <i className="devicon-bootstrap-plain-wordmark colored">
+                            </i>
                                 <h5>BootStrap</h5>
+                            
+                                
                                 <small className="years">3+ Years</small>
                             </div>
 
