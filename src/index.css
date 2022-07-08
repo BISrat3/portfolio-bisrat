@@ -104,6 +104,7 @@ a:hover {
 }
 
 .btn {
+  margin: 0rem;
   width: max-content;
   display: inline-block;
   color: var(--color-dark);

@@ -34,7 +34,7 @@ const Projects = () => {
                 class="btn"
                 target="_blank"
               >
-                <button type="button" class="btn btn-success">
+                <button type="button" className="btn btn-success">
                   Live
                 </button>
               </a>

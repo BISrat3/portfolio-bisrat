@@ -32,7 +32,7 @@ function About() {
           {/* </div> */}
           </div>
         </div>
-          <a href='https://drive.google.com/file/d/1wPkedlAeyY3RtxZHRJ7wvdNS6dtM3mm6/view?usp=sharing' class="btn"><button type="button" class="btn-resume btn-info">Download Resume</button></a>
+          <a href='https://drive.google.com/file/d/1wPkedlAeyY3RtxZHRJ7wvdNS6dtM3mm6/view?usp=sharing' className="btn"><button type="button" className="btn btn-success">Download Resume</button></a>
       </div>
     </div>
   );

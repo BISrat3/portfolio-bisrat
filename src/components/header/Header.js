@@ -8,13 +8,13 @@ const Header = () =>{
         <header id="home">
             <div className="container header_container">
                <h1>Bisrat Menberu Amtataw</h1>
-               <h5 className="text-light">Software Engineer</h5>
-               <Socials/>
+               <h2>Software Engineer</h2>
                <div className="myImage">
                     <img src={sample} alt="profileimage"/>
                 </div>
             </div>
-        </header>
+         </header>
+        <Socials/>
         </>
     )
 }
