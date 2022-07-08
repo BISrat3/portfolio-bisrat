@@ -11,7 +11,7 @@ const Footer = () => {
     return (
         <>
         <MDBFooter className='bg-info text-center text-white'>
-      <MDBContainer className='p-2 pb-0'>
+      <MDBContainer className=' pb-0'>
         <section className='mb-2'>
           <a className='btn btn-outline-danger btn-floating m-1' href='https://www.linkedin.com/in/bisrat-menberu/' role='button'>
             <MDBIcon fab icon='google' />
