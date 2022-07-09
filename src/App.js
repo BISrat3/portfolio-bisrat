@@ -3,7 +3,7 @@ import About from './components/about/About'
 import Experience from './components/experience/experience';
 import Projects from './components/projects/Project';
 import Footer from './components/Footer';
-import Contact from './components/contact/Contact'
+
 function App() {
   return (
     <>
@@ -11,7 +11,6 @@ function App() {
       <About />
       <Experience/>
       <Projects />
-      {/* <Contact /> */}
       <Footer />
     </>
   );
