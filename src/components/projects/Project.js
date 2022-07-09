@@ -10,7 +10,6 @@ const Projects = () => {
     <div id="experience">
       <h2>Projects</h2>
       <div className="container experience_container">
-        {/* <div class="box alt new-container"> */}
         <div className="frontend">
             <span class="">
               <img src={simongame} alt="" width="310px" />
