@@ -3,6 +3,7 @@ import "../../styles/about.css";
 import { MdOutlineSecurityUpdateGood } from "react-icons/md";
 import {Resume} from '../../Resume/Bisrat.pdf'
 
+import Experience from "../experience/experience";
 
 function About() {
   return (
@@ -17,7 +18,9 @@ function About() {
             <article className="about_card">
             <MdOutlineSecurityUpdateGood className="about_icon" />
               <h5>Experience</h5>
-              <h6>4 Years Full Stack Developer</h6>
+             <a href=""
+             >
+              <h6>4 Years Full Stack Developer</h6></a> 
             </article>
             <article className="about_card">
               <MdOutlineSecurityUpdateGood className="about_icon" />
