@@ -1,5 +1,5 @@
 import "../../styles/about.css";
-// import { DiCode } from "react-icons/di";
+
 import { MdOutlineSecurityUpdateGood } from "react-icons/md";
 import {Resume} from '../../Resume/Bisrat.pdf'
 
