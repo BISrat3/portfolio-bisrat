@@ -9,7 +9,6 @@ const Experience = () =>{
             <div className="container experience_container">
                 <div className="frontend">
                     <h3>Front-end</h3>
-                    {/* <div className="frontend"> */}
                     <div className="experience_content">
                         <article className="experience_details">
                             <BsFillBookmarkCheckFill className="detail-icon"/>
