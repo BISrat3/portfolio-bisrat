@@ -14,11 +14,8 @@ header {
     position: relative;
 }
 
-/* #home{
-  margin-bottom: 120px;
-} */
-h1{
-    color: green;
+.header_container h2, h1{
+    color:rgb(3, 3, 3);
 }
 .title{
     font-size: 30px;
