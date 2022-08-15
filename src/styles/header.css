@@ -11,10 +11,15 @@ header {
     text-align: center;
     position: relative;
 }
-
+/* 
+<<<<<<< HEAD
 h1{
     color: green;
-}
+=======
+.header_container h2, h1{
+    color:rgb(3, 3, 3);
+>>>>>>> f1738b679dd41357746c760ba5c917504b798061
+} */
 .title{
     font-size: 30px;
     color: black;
@@ -27,7 +32,6 @@ h1{
     align-items: center;
     gap: 0.8rem;
     position: absolute;
-    /* justify-content: center; */
     right: 4rem;
     top: 10rem;
   }

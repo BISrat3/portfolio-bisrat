@@ -7,8 +7,8 @@ const Header = () =>{
         <>
         <header id="home">
             <div className="container header_container">
-               <h1>Bisrat Menberu Amtataw</h1>
-               <h2>Software Engineer</h2>
+               <b><h1 >Bisrat Menberu Amtataw</h1></b>
+               <b><h2>Software Engineer</h2></b>
                <div className="myImage">
                     <img src={sample} alt="profileimage"/>
                 </div>

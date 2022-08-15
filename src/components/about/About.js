@@ -32,7 +32,6 @@ function About() {
               <h5>Experience</h5>
               <h6> 2 Years Network Engineer</h6>
             </article>
-          {/* </div> */}
           </div>
         </div>
           <a href='https://drive.google.com/file/d/1wPkedlAeyY3RtxZHRJ7wvdNS6dtM3mm6/view?usp=sharing' className="btn"><button type="button" className="btn btn-success">Download Resume</button></a>
