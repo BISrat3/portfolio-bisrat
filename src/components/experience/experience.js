@@ -14,14 +14,14 @@ const Experience = () =>{
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
                                 <h5>HTML</h5>
-                                <small className="years">3+ Years</small>
+                                <small className="years">4+ Years</small>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
                                 <h5>CSS</h5>
-                                <small className="years">3+ Years</small>
+                                <small className="years">4+ Years</small>
                             </div>
                         </article>
                         <article className="experience_details">
@@ -40,21 +40,21 @@ const Experience = () =>{
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
                                 <h5>SaSS</h5>
-                                <small className="years">2+ Years</small>
+                                <small className="years">3+ Years</small>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
                                 <h5>JavaScript</h5>
-                                <small className="years">3+ Years</small>
+                                <small className="years">4+ Years</small>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
                                 <h5>React</h5>
-                                <small className="years">3+ Years</small>
+                                <small className="years">4+ Years</small>
                             </div>
                         </article>
                     </div>
@@ -66,21 +66,21 @@ const Experience = () =>{
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
                                 <h5>Node JS</h5>
-                                <small className="years">3+ Years</small>
+                                <small className="years">4+ Years</small>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
                                 <h5>MongoDB</h5>
-                                <small className="years">2+ Years</small>
+                                <small className="years">3+ Years</small>
                             </div>
                         </article>
                         <article className="experience_details">
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
                                 <h5>PostgresSQL</h5>
-                                <small className="years">2+ Years</small>
+                                <small className="years">3+ Years</small>
                             </div>
                         </article>
                         <article className="experience_details">
@@ -100,7 +100,7 @@ const Experience = () =>{
                         <article className="experience_details">
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
-                                <h5>React</h5>
+                                <h5>Express</h5>
                                 <small className="years">3+ Years</small>
                             </div>
                         </article>

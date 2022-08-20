@@ -34,7 +34,7 @@ function About() {
             </article>
           </div>
         </div>
-          <a href='https://drive.google.com/file/d/1wPkedlAeyY3RtxZHRJ7wvdNS6dtM3mm6/view?usp=sharing' className="btn"><button type="button" className="btn btn-success">Download Resume</button></a>
+          <a href='https://docs.google.com/document/d/1zdOmf4pVOYz2mGzOIDVq_zWhL-Eyk6cS/edit?usp=sharing&ouid=113633528892220696425&rtpof=true&sd=true'  download ='bisratResume'className="btn" ><button type="button" className="btn btn-success">Download Resume</button></a>
       </div>
     </div>
   );

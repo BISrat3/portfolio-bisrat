@@ -12,6 +12,11 @@ header {
     position: relative;
 }
 
+#home h1{
+  color:rgb(100, 205, 35);
+  margin-top: 40px;
+  
+}
 .title{
     font-size: 30px;
     color: black;
