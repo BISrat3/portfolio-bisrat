@@ -125,13 +125,6 @@ a:hover {
   background-color: var(--color-secondary);
   color: var(--color-white);
 }
-/* 
-img {
-  display: block;
-  width: 100%;
-  object-fit: cover;
-} */
-
 /* ~~~~~~~~~~~~~ Media Query (Tablets) ~~~~~~~~~~~~~ */
 @media screen and (max-width: 1024px){
   .container {

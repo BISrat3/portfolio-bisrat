@@ -30,8 +30,6 @@ const Experience = () =>{
                             <i className="devicon-bootstrap-plain-wordmark colored">
                             </i>
                                 <h5>BootStrap</h5>
-                            
-                                
                                 <small className="years">3+ Years</small>
                             </div>
 
