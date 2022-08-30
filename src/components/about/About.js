@@ -1,8 +1,5 @@
 import "../../styles/about.css";
-
 import { MdOutlineSecurityUpdateGood } from "react-icons/md";
-import {Resume} from '../../Resume/Bisrat.pdf'
-
 import Experience from "../experience/experience";
 
 function About() {
