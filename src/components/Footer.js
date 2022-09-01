@@ -25,7 +25,7 @@ const Footer = () => {
         </section>
       </MDBContainer>
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-        © 2022 Copyright:
+      © 2022 : Developer | All Rights Reserved : 
         <a className='text-white' href='https://www.linkedin.com/in/bisrat-menberu/'>
           Bisrat Amtataw
         </a>

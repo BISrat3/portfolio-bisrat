@@ -71,7 +71,7 @@ const Experience = () =>{
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
                                 <h5>MongoDB</h5>
-                                <small className="years">3+ Years</small>
+                                <small className="years">4+ Years</small>
                             </div>
                         </article>
                         <article className="experience_details">
@@ -99,7 +99,7 @@ const Experience = () =>{
                             <BsFillBookmarkCheckFill className="detail-icon"/>
                             <div>
                                 <h5>Express</h5>
-                                <small className="years">3+ Years</small>
+                                <small className="years">4+ Years</small>
                             </div>
                         </article>
                     </div>
